@@ -1,0 +1,223 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+header {
+  background-color: skyblue;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.img_title {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  align-self: center;
+}
+nav {
+  display: flex;
+  align-self: flex-end;
+}
+.menu {
+  margin-right: 15px;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul ul {
+  display: none;
+  margin: 0;
+  position: absolute;
+  border: 2px black solid;
+  border-radius: 5%;
+  background-color: white;
+  padding: 10px;
+}
+.menu ul li a:hover > ul {
+  display: block;
+}
+.img-sticky {
+}
+.img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: lightgreen;
+}
+.images {
+  border: 2px black solid;
+  border-radius: 50px;
+  width: 113px;
+  height: 91px;
+  padding: 2px;
+  background-color: skyblue;
+  margin: 5px auto;
+}
+.sticky-contain {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+.sticky {
+  height: 135px;
+  width: 135px;
+  background-color: pink;
+}
+.sticky > a {
+  font-family: cursive;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 2px;
+}
+.sticky3 > p {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.sticky-top {
+  background-color: lightyellow;
+  opacity: .2;
+  height: 14px;
+}
+.sticky1 {
+  transform: rotate(-5deg);
+}
+.sticky3 {
+  transform: rotate(5deg);
+}
+ol li {
+  position: relative;
+  bottom: 5px;
+}
+.about_me > h2 {
+  display: flex;
+  justify-content: center;
+}
+.about_me {
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+}
+.service_contact {
+  display: flex;
+  justify-content: space-around;
+}
+.service_contact > section {
+  border: 2px black solid;
+  border-radius: 5px;
+  width: 30%;
+  background-color: skyblue;
+}
+.top-panel {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-panel h2 {
+  margin: 0;
+}
+section > hr {
+  margin: 0;
+}
+.form {
+  border-radius: 5px;
+  padding: 15px 0;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+section > a {
+  text-decoration: none;
+  text-shadow: .5px .5px #000;
+}
+section > p {
+  border: 2px black solid;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.quote {
+  height: 150px;
+  border: 2px black solid;
+  border-radius: 5px;
+  background-image: url('https://www.gravatar.com/userimage/126022818/3837faf314ed34a71c19bb6fadbae31c?size=120');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.quote > p {
+  align-self: center;
+}
+footer {
+  background-color: skyblue;
+  border: 2px black solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+span {
+  color: red;
+}
+footer > p > a {
+  text-decoration: none;
+}
+footer > p {
+  margin: 0;
+}
+/* Tips and tricks and help styles below */
+
+.heading {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 75%;
+  margin: 0 auto;
+  border-left: 2px black solid;
+  border-right: 2px black solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 2px black solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.tips_tricks {
+  background-color: #84CEED;
+  width: 75%;
+  margin: 0 auto;
+  padding: 5px;
+  border-right: 2px black solid;
+  border-bottom: 2px black solid;
+  border-left: 2px black solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.sticky-containP2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 10px;
+}
