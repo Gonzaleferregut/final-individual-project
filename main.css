@@ -43,10 +43,9 @@ nav {
   background-color: white;
   padding: 10px;
 }
+/* Selects the links */
 .menu ul li a:hover > ul {
   display: block;
-}
-.img-sticky {
 }
 .img {
   display: flex;
