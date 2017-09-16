@@ -1,3 +1,22 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @Gonzaleferregut
+ Sign out
+ Watch 0
+  Star 0
+ Fork 0 Gonzaleferregut/final-individual-project
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights
+Branch: master Find file Copy pathfinal-individual-project/main.css
+deb9b20  14 days ago
+@Gonzaleferregut Gonzaleferregut still working on nav
+1 contributor
+RawBlameHistory
+222 lines (220 sloc)  3.68 KB
 .container {
   width: 960px;
   margin: 0 auto;
@@ -28,14 +47,13 @@ nav {
   display: flex;
   align-self: flex-end;
 }
-.main-menu {
+.menu {
   margin-right: 15px;
+}
+.menu ul li {
   list-style: none;
 }
-.main-menu li:hover .sub-menu {
-  display: block;
-}
-.sub-menu {
+.menu ul ul {
   display: none;
   margin: 0;
   position: absolute;
@@ -43,6 +61,10 @@ nav {
   border-radius: 5%;
   background-color: white;
   padding: 10px;
+}
+/* Selects the links */
+.menu ul li a:hover > ul {
+  display: block;
 }
 .img {
   display: flex;
