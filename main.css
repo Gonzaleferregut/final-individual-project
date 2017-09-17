@@ -29,13 +29,23 @@ nav {
   display: flex;
   align-self: flex-end;
 }
-.menu {
+.main-menu {
   margin-right: 15px;
 }
-.menu ul li {
+.main-menu a {
+  color: black;
+  text-decoration: none;
+}
+.main-menu li, .sub-menu li {
   list-style: none;
 }
-.menu ul ul {
+.main-menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu a {
+  color: blue;
+}
+.sub-menu {
   display: none;
   margin: 0;
   position: absolute;
@@ -44,9 +54,8 @@ nav {
   background-color: white;
   padding: 10px;
 }
-/* Selects the links */
-.menu ul li a:hover > ul {
-  display: block;
+.sub-menu li:hover {
+  background-color: lightgreen;
 }
 .img {
   display: flex;
